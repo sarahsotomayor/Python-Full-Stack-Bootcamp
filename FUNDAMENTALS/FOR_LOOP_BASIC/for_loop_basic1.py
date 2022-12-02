@@ -36,5 +36,7 @@ lowNum=2, highNum=9, and mult=3, the loop should print 3, 6, 9 (on successive li
 lowNum=1
 highNum=100
 multiple=10
-
+for i in range(lowNum, highNum):
+    if i%mult==0:
+        print(i)
 
